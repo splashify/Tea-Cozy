@@ -17,15 +17,13 @@ body{
   position:fixed;
   top: 0;
   background-color: black;
-justify-content:
+
 
 }
 
-.logo{
-  display: flex;
-  padding-left: 10px;
+.logo img{
   height: 50px;
-
+  padding-left: 10px;
 }
 
 nav{
@@ -50,7 +48,7 @@ nav span{
 }
 
 .main_image{
-  background-image: url(/../resources/images/6img-mission-background.jpg);
+  background-image: url(../../resources/images/6img-mission-background.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
