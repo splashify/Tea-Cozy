@@ -14,8 +14,10 @@ body{
   width: 100%;
   border-bottom: 1px solid seashell;
   align-items: center;
-  position: fixed;
+  position:fixed;
   top: 0;
+  background-color: black;
+justify-content:
 
 }
 
@@ -23,7 +25,12 @@ body{
   display: flex;
   padding-left: 10px;
   height: 50px;
+
+}
+
+nav{
   flex-grow: 1;
+  text-align: right;
 }
 
 a{
@@ -37,9 +44,9 @@ nav span{
 
 }
 .container{
-  display: flex;
   padding-top: 63px;
-  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .main_image{
@@ -48,7 +55,6 @@ nav span{
   justify-content: center;
   align-items: center;
   height: 700px;
-  width: 1200px;
 }
 
 .our_mission{
@@ -66,9 +72,32 @@ h4{
 
 }
 
-.featured{
-  display: flex;
-  width: 1000px;
+.featured_tea{
   padding-top: 100px;
+  width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
 
+.tea_items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tea_items_2{
+  display: flex;
+justify-content: center;
+  margin-top: 20px;
+}
+
+.tea_images img{
+display: block;
+width: 300px;
+height: 200px;
+}
+
+.texts{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
