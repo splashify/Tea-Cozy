@@ -59,7 +59,7 @@ nav span{
   background-color: black;
 }
 
-h2 h4{
+h2 h3 h4{
   margin: 0px;
   padding: 10px;
 }
@@ -115,6 +115,10 @@ h2 h4{
   background-color: black;
   opacity: 1;
   margin: 15px 40px;
+}
+
+.locations h3{
+
 }
 
 #contact_details{
